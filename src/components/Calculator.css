@@ -1,21 +1,27 @@
 * {
-  color: rgb(31, 18, 18);
   margin: 0;
   padding: 0;
 }
 
 section {
-  display: grid;
-  grid-template-columns: 100px 100px 100px 100px;
-  border: 2px solid rgb(216, 203, 203);
   width: fit-content;
+  margin: 15px 15px;
+}
+
+.work {
+  display: grid;
+  grid-template-columns: 130px 130px 130px 130px;
+  border: 2px solid rgb(216, 203, 203);
 }
 
 section div {
   border: 1px solid rgb(216, 203, 203);
-  padding: 20px;
-  font-size: 30px;
+  font-size: 15px;
   text-align: center;
+}
+
+.work div {
+  padding: 20px;
 }
 
 .screen {
@@ -23,7 +29,11 @@ section div {
   grid-column-end: 5;
   text-align: right;
   color: white;
-  background-color: rgb(78, 82, 93);
+  font-size: 22px;
+  font-family: 'Times New Roman', Times, serif;
+  padding: 20px;
+  padding-right: 3px;
+  background-color: rgb(123, 126, 135);
 }
 
 .zero {
@@ -32,5 +42,5 @@ section div {
 }
 
 .function {
-  background-color: rgb(225, 115, 56);
+  background-color: rgb(228, 137, 89);
 }
