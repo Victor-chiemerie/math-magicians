@@ -1,0 +1,36 @@
+* {
+    color: rgb(31, 18, 18);
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px;
+    border: 2px solid rgb(216, 203, 203);
+    width: fit-content;
+}
+
+section div {
+  border: 1px solid rgb(216, 203, 203);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.screen {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    text-align: right;
+    color: white;
+    background-color: rgb(78, 82, 93);
+}
+
+.zero {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.function {
+    background-color: rgb(225, 115, 56);
+}
