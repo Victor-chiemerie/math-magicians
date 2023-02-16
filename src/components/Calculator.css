@@ -1,14 +1,14 @@
 * {
-    color: rgb(31, 18, 18);
-    margin: 0;
-    padding: 0;
+  color: rgb(31, 18, 18);
+  margin: 0;
+  padding: 0;
 }
 
 section {
-    display: grid;
-    grid-template-columns: 100px 100px 100px 100px;
-    border: 2px solid rgb(216, 203, 203);
-    width: fit-content;
+  display: grid;
+  grid-template-columns: 100px 100px 100px 100px;
+  border: 2px solid rgb(216, 203, 203);
+  width: fit-content;
 }
 
 section div {
@@ -19,18 +19,18 @@ section div {
 }
 
 .screen {
-    grid-column-start: 1;
-    grid-column-end: 5;
-    text-align: right;
-    color: white;
-    background-color: rgb(78, 82, 93);
+  grid-column-start: 1;
+  grid-column-end: 5;
+  text-align: right;
+  color: white;
+  background-color: rgb(78, 82, 93);
 }
 
 .zero {
-    grid-column-start: 1;
-    grid-column-end: 3;
+  grid-column-start: 1;
+  grid-column-end: 3;
 }
 
 .function {
-    background-color: rgb(225, 115, 56);
+  background-color: rgb(225, 115, 56);
 }
