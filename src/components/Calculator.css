@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  width: fit-content;
+  margin: 15px 15px;
+}
+
+.work {
+  display: grid;
+  grid-template-columns: 130px 130px 130px 130px;
+  border: 2px solid rgb(216, 203, 203);
+}
+
+section div {
+  border: 1px solid rgb(216, 203, 203);
+  font-size: 15px;
+  text-align: center;
+}
+
+.work div {
+  padding: 20px;
+}
+
+.screen {
+  grid-column-start: 1;
+  grid-column-end: 5;
+  text-align: right;
+  color: white;
+  font-size: 22px;
+  font-family: 'Times New Roman', Times, serif;
+  padding: 20px;
+  padding-right: 3px;
+  background-color: rgb(123, 126, 135);
+}
+
+.zero {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.function {
+  background-color: rgb(228, 137, 89);
+}
