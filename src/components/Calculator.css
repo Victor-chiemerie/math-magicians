@@ -14,13 +14,13 @@ section {
   border: 2px solid rgb(216, 203, 203);
 }
 
-section div {
+section button {
   border: 1px solid rgb(216, 203, 203);
   font-size: 15px;
   text-align: center;
 }
 
-.work div {
+.work button {
   padding: 20px;
 }
 
