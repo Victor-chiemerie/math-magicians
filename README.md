@@ -133,6 +133,10 @@ Use Github pages for free and secure deployment.
 
 ## 🔭 Future Features <a name="future-features"></a>
 
+- **[Add background styles to calculator]**
+- **[Add User Interface as a website for better accessibility]**
+- **[add cursor pointer on buttons]**
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
