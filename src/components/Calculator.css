@@ -4,6 +4,13 @@
 }
 
 section {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 5%;
+  padding: 20px 5%;
+}
+
+.calculator {
   width: fit-content;
   margin: 15px 15px;
 }
@@ -14,9 +21,9 @@ section {
   border: 2px solid rgb(216, 203, 203);
 }
 
-section button {
+.calculator button {
   border: 1px solid rgb(216, 203, 203);
-  font-size: 15px;
+  font-size: 17px;
   text-align: center;
 }
 
@@ -25,22 +32,32 @@ section button {
 }
 
 .screen {
-  grid-column-start: 1;
-  grid-column-end: 5;
   text-align: right;
   color: white;
   font-size: 22px;
   font-family: 'Times New Roman', Times, serif;
   padding: 20px;
-  padding-right: 3px;
+  padding-right: 5px;
   background-color: rgb(123, 126, 135);
 }
 
 .zero {
   grid-column-start: 1;
   grid-column-end: 3;
+  background-color: aliceblue;
+  color: black;
 }
 
 .function {
   background-color: rgb(228, 137, 89);
+}
+
+.topic {
+  font-size: xx-large;
+  font-weight: 600;
+}
+
+.white {
+  background-color: aliceblue;
+  color: black;
 }
