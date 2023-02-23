@@ -4,6 +4,13 @@
 }
 
 section {
+  display: flex;
+  justify-content: center;
+  gap: 5%;
+  padding: 20px 5%;
+}
+
+.calculator {
   width: fit-content;
   margin: 15px 15px;
 }
@@ -14,7 +21,7 @@ section {
   border: 2px solid rgb(216, 203, 203);
 }
 
-section button {
+.calculator button {
   border: 1px solid rgb(216, 203, 203);
   font-size: 15px;
   text-align: center;
@@ -43,4 +50,9 @@ section button {
 
 .function {
   background-color: rgb(228, 137, 89);
+}
+
+.topic {
+  font-size: xx-large;
+  font-weight: 600;
 }
