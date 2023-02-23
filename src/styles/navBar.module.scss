@@ -8,7 +8,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px 30px;
+    padding: 15px 5%;
+    border-bottom: 1px solid rgb(97, 97, 97);
+    margin-bottom: 3%;
 
     h1 {
         font-size: 40px;
@@ -16,6 +18,12 @@
 
     menu {
         display: flex;
-        gap: 15px;
+        gap: 25px;
+
+        :nth-child(even) {
+            padding: 0px 30px;
+            border-left: 1px solid rgb(97, 97, 97);
+            border-right: 1px solid rgb(97, 97, 97);
+        }
     }
   }

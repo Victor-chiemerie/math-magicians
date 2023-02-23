@@ -5,7 +5,7 @@
 
 section {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   gap: 5%;
   padding: 20px 5%;
 }
@@ -19,11 +19,12 @@ section {
   display: grid;
   grid-template-columns: 130px 130px 130px 130px;
   border: 2px solid rgb(216, 203, 203);
+  
 }
 
 .calculator button {
   border: 1px solid rgb(216, 203, 203);
-  font-size: 15px;
+  font-size: 17px;
   text-align: center;
 }
 
@@ -32,20 +33,20 @@ section {
 }
 
 .screen {
-  grid-column-start: 1;
-  grid-column-end: 5;
   text-align: right;
   color: white;
   font-size: 22px;
   font-family: 'Times New Roman', Times, serif;
   padding: 20px;
-  padding-right: 3px;
+  padding-right: 5px;
   background-color: rgb(123, 126, 135);
 }
 
 .zero {
   grid-column-start: 1;
   grid-column-end: 3;
+  background-color: aliceblue;
+  color: black;
 }
 
 .function {
@@ -55,4 +56,9 @@ section {
 .topic {
   font-size: xx-large;
   font-weight: 600;
+}
+
+.white {
+  background-color: aliceblue;
+  color: black;
 }
