@@ -19,7 +19,6 @@ section {
   display: grid;
   grid-template-columns: 130px 130px 130px 130px;
   border: 2px solid rgb(216, 203, 203);
-  
 }
 
 .calculator button {
